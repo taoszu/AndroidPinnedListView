@@ -134,12 +134,14 @@ public class PinnedSectionListView extends ListView {
   public PinnedSectionListView(Context context, AttributeSet attrs) {
     super(context, attrs);
     gradientColors = new int[] { 0xffa0a0a0, 0x50a0a0a0, 0x00a0a0a0};
+    mShadowHeight = (int) (4 * getResources().getDisplayMetrics().density);
     initView();
   }
 
   public PinnedSectionListView(Context context, AttributeSet attrs, int defStyle) {
     super(context, attrs, defStyle);
     gradientColors = new int[] { 0xffa0a0a0, 0x50a0a0a0, 0x00a0a0a0};
+    mShadowHeight = (int) (4 * getResources().getDisplayMetrics().density);
     initView();
   }
 
@@ -162,10 +164,7 @@ public class PinnedSectionListView extends ListView {
 
   private void initShadow(boolean visible) {
     if (visible) {
-      if (mShadowDrawable == null) {
-        mShadowDrawable = new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, gradientColors);
-        mShadowHeight = (int) (8 * getResources().getDisplayMetrics().density);
-      }
+      mShadowDrawable = new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, gradientColors);
     } else {
       if (mShadowDrawable != null) {
         mShadowDrawable = null;
@@ -180,6 +179,14 @@ public class PinnedSectionListView extends ListView {
    */
   public void setGradientColor(@ColorInt int []gradientColors) {
     this.gradientColors = gradientColors;
+  }
+
+  /**
+   * set shadow height
+   * @param height
+   */
+  public void setShadowHeight(int height) {
+    this.mShadowHeight = height;
   }
 
   /** Create shadow wrapper with a pinned view for a view at given position */
