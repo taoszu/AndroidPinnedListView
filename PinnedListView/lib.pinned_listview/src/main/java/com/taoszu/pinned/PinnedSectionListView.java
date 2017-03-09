@@ -146,7 +146,6 @@ public class PinnedSectionListView extends ListView {
   private void initView() {
     setOnScrollListener(mOnScrollListener);
     mTouchSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();
-    initShadow(true);
   }
 
   //-- public API methods
