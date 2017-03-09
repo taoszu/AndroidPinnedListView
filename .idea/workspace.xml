@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd9bf630-83a8-44f0-9cae-f9b50dac00c4" name="Default" comment="" />
+    <list default="true" id="dd9bf630-83a8-44f0-9cae-f9b50dac00c4" name="Default" comment="[bug修复]&#10;1. 阴影渐变颜色设置失败" />
+    <list id="5b116aba-26c8-43ad-b265-801df278790c" name="New changelist" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AndroidPinnedListView.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +28,12 @@
       <file leaf-file-name="PinnedSectionListView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PinnedListView/lib.pinned_listview/src/main/java/com/taoszu/pinned/PinnedSectionListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="471">
+              <caret line="188" column="22" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="22" />
+              <folding>
+                <element signature="e#6010#6011#0" expanded="true" />
+                <element signature="e#6047#6048#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -259,6 +266,32 @@
               <option name="myItemId" value="AndroidPinnedListView" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinnedListView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidPinnedListView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidPinnedListView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -271,7 +304,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/AndroidStudioSDK" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -369,6 +402,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dd9bf630-83a8-44f0-9cae-f9b50dac00c4" name="Default" comment="" />
+      <changelist id="5b116aba-26c8-43ad-b265-801df278790c" name="New changelist" comment="" />
       <created>1489045262483</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -381,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489045351505</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[功能新增]&#10;1. 增加设置阴影高度">
+      <created>1489050338393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489050338393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -421,7 +462,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[bug修复]&#10;1. 阴影渐变颜色设置失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="[bug修复]&#10;1. 阴影渐变颜色设置失败" />
+    <MESSAGE value="[功能新增]&#10;1. 增加设置阴影高度" />
+    <option name="LAST_COMMIT_MESSAGE" value="[功能新增]&#10;1. 增加设置阴影高度" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -430,9 +473,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PinnedListView/lib.pinned_listview/src/main/java/com/taoszu/pinned/PinnedSectionListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="471">
+          <caret line="188" column="22" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="22" />
+          <folding>
+            <element signature="e#6010#6011#0" expanded="true" />
+            <element signature="e#6047#6048#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
